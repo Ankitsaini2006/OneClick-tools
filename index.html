@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>OneClick Tools</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f2f2f2;
+      text-align: center;
+      padding: 60px 20px;
+    }
+
+    h1 {
+      font-size: 36px;
+      margin-bottom: 50px;
+    }
+
+    .tool-list {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 20px;
+    }
+
+    .tool-btn {
+      padding: 15px 30px;
+      font-size: 20px;
+      border: none;
+      border-radius: 10px;
+      background-color: #28a745;
+      color: white;
+      cursor: pointer;
+      width: 250px;
+      transition: background-color 0.3s;
+    }
+
+    .tool-btn:hover {
+      background-color: #218838;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>🧰 OneClick Tools</h1>
+
+  <div class="tool-list">
+    <button class="tool-btn" onclick="window.open('https://check-weather-app-zeta.vercel.app/', '_blank')">🌦️ Weather</button>
+    <button class="tool-btn" onclick="window.open('https://translate.google.com/', '_blank')">🌐 Translator</button>
+    <button class="tool-btn" onclick="location.href='https://calculator-2-nine-pi.vercel.app/'">🧮 Calculator</button>
+    <button class="tool-btn" onclick="location.href='https://stop-watch-alpha-gold.vercel.app/'">⏱️ Stopwatch</button>
+  </div>
+
+</body>
+</html>
